@@ -214,7 +214,7 @@ mysqli_close($con);
                 
                 <!--Sign Up Form-->
                 <div class="styled-form login-form">
-                    <form method="post" action="#">
+                    <form method="post" action="#" name="signupForm" onsubmit="return validateSignupForm()">
                         <div class="form-group">
                             <span class="adon-icon"><span class="fa fa-user"></span></span>
                             <input type="text" name="user_name"  placeholder="Your Name *" autocomplete="off" required>
@@ -270,6 +270,7 @@ mysqli_close($con);
     <script src="js/owl.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/validate.js"></script>
     </body>
 
 
